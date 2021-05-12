@@ -105,6 +105,10 @@ body {
 
 /* -------------- HOBBY ------------------- */
 
+.hobby{
+  margin-bottom: 50px;
+}
+
 .hobby .hobbies {
   margin: 0 auto;
   text-align: center;
