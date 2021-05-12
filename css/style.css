@@ -194,3 +194,14 @@ body {
 .contact .pets {
   width: 22%;
 }
+
+/* -------------- FOOTER ------------------- */
+
+footer{
+  border-top: 1px solid #000;
+  color: #000;
+}
+
+footer .centre{
+  margin: 0 auto;
+}
