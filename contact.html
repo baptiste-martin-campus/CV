@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-nav">
+          <ul class="menu">
+            <li><a href="index.html" title="CV">CV</a></li>
+            <li><a href="hobby.html" title="Hobbies">Hobbies</a></li>
+            <li><a href="#" title="Contact">- Contact -</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="contact">
+      <div class="container">
+        <div class="titre">
+          <h3>Contactez-moi içi</h3>
+        </div>
+        <div class="en2">
+          <div class="formulaire">
+            <form action="https://httpbin.org/post" method="post">
+              <div class="form">
+                <label for="name">Nom :</label><br />
+                <input type="text" id="name" name="user_name" required />
+              </div>
+              <div class="form">
+                <label for="mail">E-mail :</label><br />
+                <input type="email" id="mail" name="user_mail" required />
+              </div>
+              <div class="form">
+                <label for="msg">Message :</label><br />
+                <textarea id="msg" name="user_message" required></textarea>
+              </div>
+              <div class="button">
+                <button type="submit">Envoyer le message</button>
+              </div>
+              <div class="button">
+                <button type="reset">Effacer</button>
+              </div>
+            </form>
+          </div>
+          <div class="radios">
+            <form>
+              <fieldset>
+                <legend>Tu es libre ce soir ?</legend>
+                <p>
+                  <input type="radio" name="size" id="size_1" value="small" />
+                  <label for="size_1">Oui</label>
+                </p>
+                <p>
+                  <input type="radio" name="size" id="size_2" value="medium" />
+                  <label for="size_2">Non</label>
+                </p>
+                <p>
+                  <input type="radio" name="size" id="size_3" value="large" />
+                  <label for="size_3">Envoi fesses</label>
+                </p>
+              </fieldset>
+            </form>
+          </div>
+          <div class="pets">
+            <label for="pet-select">Quel est votre animal préferé ?</label>
+            <select name="pets" id="pet-select">
+              <option value=""
+                >Choisir dans la liste (0 tentatives d'influence)</option
+              >
+              <option value="chien">Chien</option>
+              <option value="chat">Chat</option>
+              <option value="lapin">Lapin</option>
+              <option value="poisson">Poisson</option>
+              <option value="panda">❤️ PANDA ❤️</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
