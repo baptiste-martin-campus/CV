@@ -147,6 +147,10 @@ body {
 
 /* -------------- CONTACT ------------------- */
 
+.contact{
+  margin-bottom: 50px;
+}
+
 .contact .titre{
   background-image: url(../img/night.jpg);
   background-attachment: fixed;
@@ -175,7 +179,7 @@ body {
 
 .contact .formulaire .form label {
   font-size: 20px;
-  background-color: #000;
+  background-color: rgb(0, 120, 1);
   color: #fff;
   text-align: center;
   border-radius: 10px 0 10px 0;
@@ -208,4 +212,5 @@ footer{
 
 footer .centre{
   margin: 0 auto;
+  text-align: center;
 }
